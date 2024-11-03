@@ -1,0 +1,6 @@
+Server name: Lumine\SQLEXPRESS
+Database: Hills_Uni_campus
+
+Connect with SQL authentication 
+username: Demo_User
+password: demo!123

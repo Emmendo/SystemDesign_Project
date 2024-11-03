@@ -1,0 +1,8 @@
+# Database connection
+conn = pyodbc.connect(
+    'Driver={ODBC Driver 17 for SQL Server};'
+    'Server=Lumine\SQLEXPRESS,1433;'  # Replace with your server name
+    'Database=Hills_Uni_campus;'  # Replace with your database name
+    'UID=Demo_User;'  # Replace with your SQL username
+    'PWD=demo!123'  # Replace with your SQL password
+)
