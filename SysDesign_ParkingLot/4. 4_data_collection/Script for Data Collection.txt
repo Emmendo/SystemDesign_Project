@@ -1,0 +1,8 @@
+# Database connection
+conn = pyodbc.connect(
+    'Driver={ODBC Driver 17 for SQL Server};'
+    'Server=Lumine\SQLEXPRESS,1433;'
+    'Database=ParkingLot;'  
+    'UID=Demo_User;'  
+    'PWD=demo!123'
+)
